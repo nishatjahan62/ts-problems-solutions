@@ -44,7 +44,7 @@ console.log(output2)
 ** In this function <T> used as a type parameter, by which we can use type dynamically.
 => when we call the function we can either define the type (output2) or TypeScript will infer it based on the argument.
 
-**It works with any data structure**
+**It stay strictly typed regardless of the data structure**
 ```ts
 const createArrayWithGeneric = <T>(value: T): T[] => {
   return [value];

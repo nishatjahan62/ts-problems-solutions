@@ -68,6 +68,9 @@ class Student extends Person {
   }
 }
 
+const student = new Student("Alice", 20, "A");
+console.log(student.getDetails())
+
 // Solution of Problem 07
 
 const getIntersection = (arr1: number[], arr2: number[]): number[] => {
